@@ -396,7 +396,6 @@ main {
     width: 100%;
     height: 500px;
     background-color: #00000280;
-    ;
     background-blend-mode: darken;
     background-attachment: fixed;
 
@@ -490,3 +489,186 @@ footer {
 }
 
 /* media Quries  */
+@media screen and (max-width:576px) {
+    /* nav responsive */
+    header{
+       display: flex;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .nav{
+        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 30px;
+        height: 50px;
+        margin-top: 20px;
+        
+        
+        }
+        .nav-logo{
+            text-align: center;
+        }
+       
+        .menu ul{
+            width: 300px;
+            margin-right: 13px;
+            
+            
+        }
+        .brand-new-content-title{
+            font-size: 30px;
+            font-weight: 700;
+           display: flex;
+           justify-content: center;
+           margin-top: 20px;
+        }
+        .brand-new-content-description{
+            width: 280px;
+            text-align: justify;
+        }
+        .brand-new-banner img{
+            width: 300px;
+            height: 270px;
+        } 
+
+        /* quick-list-container */
+        .quick-list-container{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           row-gap: 50px;
+          
+            
+            
+        }
+        .quick-list-imgs {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            
+        }
+        .quick-list-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .quick-list-title{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .quick-list-description{
+           width: 250px;
+           text-align: justify;
+        }
+
+        /* feature-container */
+        .feature-container{
+            display: flex;
+            flex-direction: column;
+        }
+        .feature-content{
+         display: flex;
+         flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .feature-content-title{
+           text-align: center;
+           font-size: 30px;
+           font-weight: 700;
+        }
+        .feature-content-description{
+            width: 300px;
+            text-align: center;
+        }
+        .feature-subcontent{
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .feature-subcontent-description{
+
+            width: 300px;
+        }
+        .feature-img-content{
+            display: flex;
+            flex-direction: column;
+       
+        }
+        .feature-img-content {
+            width: 300px;
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            right: 30px;
+            margin: 0 auto;
+           
+    
+        }
+        .feature-img-content  img{
+            width: 250px;
+            height: 330px;
+            position:absolute;
+           
+
+        }
+        .feature-img-content-btn{
+           top: 400px;
+            position: relative;
+            margin: 0 auto;
+        
+        }
+        .some-fact-contaier{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .some-fact-title{
+
+            font-size: 30px;
+
+        }
+        .some-fact-description{
+            width: 300px;
+        }
+        .some-fact-content{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        .sponser-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .sponser-container-title{
+            font-size: 30px;
+
+        }
+        .sponser-container-description{
+            width: 300px;
+        }
+        .sponser-content{
+            display: flex;
+            flex-direction: column;
+            row-gap: 50px;
+        }
+        .get-update{
+            width: 310px;
+        }
+        .footer{
+           width: 300px;
+           text-align: center;
+        }
+       
+
+    
+    
+}
